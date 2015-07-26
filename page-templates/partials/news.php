@@ -17,7 +17,7 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
 		echo '<li>';
         echo "<p style='text-align: right;'>" . get_the_date('F j') . "</p>";
-		if ( has_post_thumbnail() ) { 
+		if ( has_post_thumbnail() ) {
 			the_post_thumbnail( 'news-thumbnail' );
 		}
 		else {

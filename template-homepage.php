@@ -23,11 +23,16 @@ get_header(); ?>
  
                         <div id="homepage-central-content-block">
 
-                                <?php include 'page-templates/partials/no_tuition_promise.php'; ?>
+                                <?php //include 'page-templates/partials/no_tuition_promise.php'; ?>
 
-                                <?php include 'page-templates/partials/news.php'; ?>
+                                <?php //include 'page-templates/partials/news.php'; ?>
 
-                                <?php include 'page-templates/partials/people_slider.php'; ?>
+                                <?php //include 'page-templates/partials/people_slider.php'; ?>
+
+
+                            <!-- Big placeholder for content, whatever it turns out to be... -->
+                            <div style="height: 200px;"></div>
+
 
                         </div><!-- #homepage-central-content-block -->
 
