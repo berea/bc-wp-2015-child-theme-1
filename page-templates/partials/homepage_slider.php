@@ -1,6 +1,7 @@
 <!-- This is the homepage slider -->
 
-<div class="homepage-slider homepage-slider-sizing-main">
+<div class="homepage-slider homepage-slider-sizing-aspect-ratio ratio_1024x620">
+	<div class="homepage-slider-background"></div>
 
     <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
 
