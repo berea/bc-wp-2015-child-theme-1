@@ -9,7 +9,8 @@
     <div class="hero-nav-wrapper">
         <div class="hero-nav">
             <div class="hero-nav-item">
-                <a href="https://www.berea.edu/admissions/applying-for-admission/">
+<!--                <a href="https://www.berea.edu/admissions/applying-for-admission/">-->
+                    <a href="https://dev.berea.edu/subsite">
                     <img class="vertical-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apply.png" alt="Apply" width="25" height="25" />
                     <span class="vertical-center nudge-right">APPLY</span>
                 </a>

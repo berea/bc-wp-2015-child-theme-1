@@ -22,10 +22,14 @@ get_header(); ?>
 
                                 <?php //include 'page-templates/partials/people_slider.php'; ?>
 
-
-                            <!-- Big placeholder for content, whatever it turns out to be... -->
-                            <div style="height: 200px;"></div>
-
+<?php
+    if (have_posts()) :
+        while (have_posts()) :
+            the_post();
+            the_content();
+        endwhile;
+    endif;
+?>
 
                         </div><!-- #homepage-central-content-block -->
 
