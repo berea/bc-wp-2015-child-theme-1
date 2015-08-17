@@ -10,11 +10,6 @@
 
 get_header(); ?>
 
-
-<div id="homepage-slider">
-    <?php include 'page-templates/partials/homepage_slider.php'; ?>
-</div>
-
         <div id="primary" class="content-area">
 
                 <main id="main" class="site-main" role="main">

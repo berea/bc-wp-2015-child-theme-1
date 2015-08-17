@@ -1,6 +1,6 @@
 <!-- This is the homepage slider -->
 
-<div class="homepage-slider">
+<div class="homepage-slider homepage-slider-sizing-main">
 
     <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
 
