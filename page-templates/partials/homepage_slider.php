@@ -3,9 +3,10 @@
 <div class="homepage-slider homepage-slider-sizing-aspect-ratio ratio_1024x620">
 	<div class="homepage-slider-background"></div>
 
-    <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
-
-    <p class="tagline">Donec id elit non mi porta gravida at eget metus. <a href="#">Read More &gt;</a></p>
+    <div class="slider-textblock">
+        <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
+        <p class="tagline read-more">Donec id elit non mi porta gravida at eget metus. <a href="#">Read More &gt;</a></p>
+    </div>
 
     <div class="hero-nav-wrapper">
         <div class="hero-nav">
