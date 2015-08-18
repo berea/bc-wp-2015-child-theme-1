@@ -29,7 +29,17 @@ get_header(); ?>
             echo '<ul>';
             while ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo '<li><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></li>';
+                echo "<li>";
+
+                if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+                    echo the_post_thumbnail();
+                }
+
+
+
+                echo '<a href="' . get_the_permalink() . '">' . get_the_title() . '</a>';
+
+                echo "</li>\n";
             }
             echo '</ul>';
         } else {
