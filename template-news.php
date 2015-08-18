@@ -31,9 +31,9 @@ get_header(); ?>
                 $the_query->the_post();
                 echo "<li>";
 
-                if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-                    echo the_post_thumbnail();
-                }
+//                if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+//                    echo the_post_thumbnail();
+//                }
 
 
 
