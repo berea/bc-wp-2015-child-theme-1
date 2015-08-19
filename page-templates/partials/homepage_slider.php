@@ -38,6 +38,4 @@
         </div>
     </div>
 
-    <p>&nbsp;</p>
-
 </div><!-- .homepage-slider -->
