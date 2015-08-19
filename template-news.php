@@ -16,11 +16,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-
-        <div id="news-list">
-
         <?php
-
         // The Query
         $the_query = new WP_Query();
 
@@ -29,7 +25,7 @@ get_header(); ?>
             echo '<ul>';
             while ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                echo '<li><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></li>';
+                echo '<li>' . get_the_title() . '</li>';
             }
             echo '</ul>';
         } else {
@@ -37,17 +33,20 @@ get_header(); ?>
         }
         /* Restore original Post Data */
         wp_reset_postdata();
-
         ?>
 
-        </div>
+
+
 
     </main><!-- #main -->
 
     <!-- site-main-footer-shim -->
-    <div id="main-footer-shim" class="site-main-footer-shim"></div>
+<!--    <div id="main-footer-shim" class="site-main-footer-shim"></div>-->
 
 </div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<div id="secondary">
+    <?php get_sidebar(); ?>
+</div>
+
 <?php get_footer(); ?>
