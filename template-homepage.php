@@ -22,6 +22,9 @@ get_header(); ?>
 
                                 <?php //include 'page-templates/partials/people_slider.php'; ?>
 
+                                <div class="user-entered-content">
+
+
 <?php
     if (have_posts()) :
         while (have_posts()) :
@@ -30,6 +33,8 @@ get_header(); ?>
         endwhile;
     endif;
 ?>
+
+                                </div><!-- .user-entered-content" -->
 
                         </div><!-- #homepage-central-content-block -->
 
