@@ -11,7 +11,7 @@
  * @package berea
  */
 
-get_header(); ?>
+get_header( 'secondary' ); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -45,8 +45,5 @@ get_header(); ?>
 
 </div><!-- #primary -->
 
-<div id="secondary">
-    <?php get_sidebar(); ?>
-</div>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
