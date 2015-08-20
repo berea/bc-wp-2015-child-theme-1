@@ -18,7 +18,7 @@ get_header(); ?>
 
         <?php
         // The Query
-        $the_query = new WP_Query();
+        $the_query = new WP_Query('cat=-1');
 
         // The Loop
         if ( $the_query->have_posts() ) {
