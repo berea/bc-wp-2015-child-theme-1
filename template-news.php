@@ -11,7 +11,7 @@
  * @package berea
  */
 
-get_header( 'secondary' ); ?>
+get_header(); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -41,7 +41,7 @@ get_header( 'secondary' ); ?>
     </main><!-- #main -->
 
     <!-- site-main-footer-shim -->
-<!--    <div id="main-footer-shim" class="site-main-footer-shim"></div>-->
+    <div id="main-footer-shim" class="site-main-footer-shim"></div>
 
 </div><!-- #primary -->
 

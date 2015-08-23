@@ -22,7 +22,7 @@ get_header(); ?>
 
                                 <?php //include 'page-templates/partials/people_slider.php'; ?>
 
-                                <div class="user-entered-content">
+                                <div class="entry-content">
 
 
 <?php
@@ -34,7 +34,7 @@ get_header(); ?>
     endif;
 ?>
 
-                                </div><!-- .user-entered-content" -->
+                                </div><!-- .entry-content" -->
 
                         </div><!-- #homepage-central-content-block -->
 
