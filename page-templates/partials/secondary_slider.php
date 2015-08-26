@@ -3,6 +3,6 @@
     <div class="secondary-slider-background"></div>
     <div class="slider-textblock">
         <div class="slider-breadcrumbs">Bread &nbsp;/&nbsp; Crumbs &nbsp;/&nbsp; Here</div>
-        <h1 style=""><?php echo get_bloginfo('name'); ?></h1>
+        <!-- Blog name removed - not needed in this theme. -->
     </div>
 </div>
