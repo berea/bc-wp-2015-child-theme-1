@@ -5,14 +5,13 @@
 
     <div class="slider-textblock">
         <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
-        <p class="tagline read-more">Donec id elit non mi porta gravida at eget metus. <a href="#">Read More &gt;</a></p>
+        <p class="tagline read-more">The New York Times writes "Berea College has a hidden advantage."&nbsp; <a href="http://www.nytimes.com/2014/09/04/upshot/why-colleges-with-a-distinct-focus-have-a-hidden-advantage.html">Read More &gt;</a></p>
     </div>
 
     <div class="hero-nav-wrapper">
         <div class="hero-nav">
             <div class="hero-nav-item">
-<!--                <a href="https://www.berea.edu/admissions/applying-for-admission/">-->
-                    <a href="https://dev.berea.edu/subsite">
+ 										<a href="https://www.berea.edu/admissions/applying-for-admission/">
                     <img class="vertical-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apply.png" alt="Apply" width="25" height="25" />
                     <span class="vertical-center nudge-right">APPLY</span>
                 </a>
