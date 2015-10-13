@@ -1,6 +1,6 @@
 <!-- This is the homepage slider -->
 
-<div class="homepage-slider homepage-slider-sizing-aspect-ratio ratio_1024x620">
+<div class="homepage-slider homepage-slider-sizing-aspect-ratio ratio_1024x440">
 	<div class="homepage-slider-background"></div>
 
     <div class="slider-textblock">
