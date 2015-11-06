@@ -1,7 +1,12 @@
 <!-- This is the homepage slider -->
 
 <div class="homepage-slider homepage-slider-sizing-aspect-ratio ratio_1024x440">
-	<div class="homepage-slider-background"></div>
+<!--	<div class="homepage-slider-background"></div>-->
+
+<div class="homepage-slider-background">
+    <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'default', 'slug' ); } ?>
+</div>
+
 
     <div class="slider-textblock">
         <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
