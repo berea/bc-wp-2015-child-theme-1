@@ -7,12 +7,6 @@
     <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'default', 'slug' ); } ?>
 </div>
 
-
-    <div class="slider-textblock">
-        <h1>THE BEST EDUCATION<br />MONEY CAN'T BUY</h1>
-        <p class="tagline read-more">The New York Times writes "Berea College has a hidden advantage."&nbsp; <a href="http://www.nytimes.com/2014/09/04/upshot/why-colleges-with-a-distinct-focus-have-a-hidden-advantage.html">Read More &gt;</a></p>
-    </div>
-
     <div class="hero-nav-wrapper">
         <div class="hero-nav">
             <div class="hero-nav-item">
