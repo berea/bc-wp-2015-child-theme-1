@@ -16,12 +16,6 @@ get_header(); ?>
  
                         <div id="homepage-central-content-block">
 
-                                <?php //include 'page-templates/partials/no_tuition_promise.php'; ?>
-
-                                <?php //include 'page-templates/partials/news.php'; ?>
-
-                                <?php //include 'page-templates/partials/people_slider.php'; ?>
-
                                 <div class="entry-content">
 
 
