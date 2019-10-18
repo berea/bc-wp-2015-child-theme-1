@@ -16,6 +16,24 @@
 	
 }
 
+
+h1.gb-c-hero-home__title
+{
+width:auto;  
+border-bottom: 0px !important;
+color: white !important; 
+font-size: 3em; 
+text-shadow: 0 0 10px #000;
+}
+
+
+@media only screen and (max-width: 400px){
+h1.gb-c-hero-home__title
+{
+font-size: 2em;
+}
+}
+
 .hero-nav-videotext
 {
     list-style-type: none;
@@ -105,7 +123,7 @@ font-size:2em;
         <div class="hero-nav-videotext">
         	<div class="video-text-container">
             <div class="hero-nav-item-videotext">
-            	<h1 class="gb-c-hero-home__title gb-u-type-alpha" style="width:auto;  border-bottom: 0px !important;color: white !important; font-size: 3em; text-shadow: 0 0 10px #000;">A College Like No Other</h1>
+            	<h1 class="gb-c-hero-home__title gb-u-type-alpha">A College Like No Other</h1>
                     <div class="gb-c-hero-home__intro gb-u-type-p--xlarge">
 						<p aria-hidden="true" style="letter-spacing: -0.001em;font-size:1.4em; margin-top: -20px; text-shadow: 0 0 10px #000;color: white !important; text-align:right !important;">#ThisIsBerea</p>
 					</div>
