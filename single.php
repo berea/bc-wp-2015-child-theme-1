@@ -29,7 +29,7 @@ get_header(); ?>
 				?>
 				
 				<hr/>
-				<p>Berea College, the first interracial and coeducational college in the South, focuses on learning, labor and service. The College only admits academically promising students with limited financial resources—primarily from Kentucky and Appalachia—but welcomes students from 40 states and 70 countries. Every Berea student receives a Tuition Promise Scholarship, which means no Berea student pays for tuition.  Berea is one of nine federally recognized Work Colleges, so students work 10 hours or more weekly to earn money for books, housing and meals.  The College’s motto, “God has made of one blood all peoples of the earth,” speaks to its inclusive Christian character.</p>
+				<p>Berea College, the first interracial and coeducational college in the South, focuses on learning, labor and service. The College only admits academically promising students with limited financial resources—primarily from Kentucky and Appalachia—but welcomes students from 41 states and 76 countries. Every Berea student receives a Tuition Promise Scholarship, which means no Berea student pays for tuition.  Berea is one of nine federally recognized Work Colleges, so students work 10 hours or more weekly to earn money for books, housing and meals.  The College’s motto, “God has made of one blood all peoples of the earth,” speaks to its inclusive Christian character.</p>
 				
 				<?php
 				// If comments are open or we have at least one comment, load up the comment template

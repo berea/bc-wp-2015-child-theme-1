@@ -66,7 +66,7 @@ font-size: 2em;
     background-color: transparent;
     position: absolute;
     bottom: 15%;
-    left:5%;
+    right:5%;
 }
 
 .homepageslider-videotext
@@ -107,13 +107,13 @@ font-size:2em;
  
 
 
-<video class="video-main" controls autoplay muted loop playsinline poster="placeholder.jpg" id="bgvideo" width="x" height="y">
-    <source src="https://video-berea.s3.amazonaws.com/ChristmasCardVideoNoSoundFINAL-compressed.webmhd.webm" type="video/webm">
-    <source src="https://video-berea.s3.amazonaws.com/ChristmasCardVideoNoSoundFINAL-compressed.mp4" type="video/mp4">
-       
-
-
+<video class="video-main" autoplay muted loop playsinline poster="placeholder.jpg" id="bgvideo" width="x" height="y">
+    <!--<source src="http://d3fbrw1lypbzv6.cloudfront.net/bcCover-webmhd.webm" type="video/webm">
+    <source src="http://d3fbrw1lypbzv6.cloudfront.net/bcCover-9.mp4" type="video/mp4"> -->
+    <source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.webm" type="video/webm">
+    <source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.mp4" type="video/mp4">
 </video>
+
 
 
 
@@ -125,17 +125,9 @@ font-size:2em;
         <div class="hero-nav-videotext">
         	<div class="video-text-container">
             <div class="hero-nav-item-videotext">
-                
-                <audio autoplay controls loop style="opacity: 0.5;">
- 
-  <source src="https://video-berea.s3.amazonaws.com/RoelofsChristmasMusic.mp3" type="audio/mpeg">
-  
-</audio>
-            	<h1 class="gb-c-hero-home__title gb-u-type-alpha">
-
-                    <!--A College Like No Other--></h1>
+            	<h1 class="gb-c-hero-home__title gb-u-type-alpha">A College Like No Other</h1>
                     <div class="gb-c-hero-home__intro gb-u-type-p--xlarge">
-						<p aria-hidden="true" style="letter-spacing: -0.001em;font-size:1.4em; margin-top: -20px; text-shadow: 0 0 10px #000;color: white !important; text-align:right !important;"><!--#ThisIsBerea--></p>
+						<p aria-hidden="true" style="letter-spacing: -0.001em;font-size:1.4em; margin-top: -20px; text-shadow: 0 0 10px #000;color: white !important; text-align:right !important;">#ThisIsBerea</p>
 					</div>
                     
             </div>
