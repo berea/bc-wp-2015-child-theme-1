@@ -110,8 +110,10 @@ font-size:2em;
 <video class="video-main" autoplay muted loop playsinline poster="placeholder.jpg" id="bgvideo" width="x" height="y">
     <!--<source src="http://d3fbrw1lypbzv6.cloudfront.net/bcCover-webmhd.webm" type="video/webm">
     <source src="http://d3fbrw1lypbzv6.cloudfront.net/bcCover-9.mp4" type="video/mp4"> -->
-    <source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.webm" type="video/webm">
-    <source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.mp4" type="video/mp4">
+    <!--<source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.webm" type="video/webm">
+    <source src="https://video-berea.s3.amazonaws.com/bcHomepagecCover.mp4" type="video/mp4">-->
+    <source src="https://video-berea.s3.amazonaws.com/2020WinterHomepageVideo.webmhd.webm" type="video/webm">
+    <source src="https://video-berea.s3.amazonaws.com/2020WinterHomepageVideoCompressed.mp4" type="video/mp4">
 </video>
 
 
